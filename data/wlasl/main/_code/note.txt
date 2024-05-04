@@ -1,0 +1,1 @@
+These are directories from the original WLASL repository and will likely not be used by us.
