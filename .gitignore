@@ -11,8 +11,13 @@ __pycache__/
 # Data (too large for GitHub)
 WLASL_v0.3.json
 data/asl_citizen/videos
+*.csv
+*.pkl
+*.json
+*.pt
 
-data/wlasl/videos
+data/wlasl/wlasl/videos/
+data/wlasl/videos/
 data/wlasl/wlasl_train.json
 data/wlasl/wlasl_val.json
 data/wlasl/wlasl_test.json
@@ -21,11 +26,19 @@ data/wlasl/main/start_kit/raw_videos
 data/wlasl/main/start_kit/raw_videos_mp4
 data/wlasl/main/start_kit/videos
 
+data/wlasl/videos
 data/pipeline/processed_videos/
-data/pipeline/lightning_logs/
+data/wlasl/main/checkpoints
+data/wlasl/main/_code
 data/pipeline/best_model_weights.pth
 
 data/wlasl/main/model/
+
+data/wlasl/main/lightning_logs
+data/wlasl/wlasl/main/lightning_logs
+data/wlasl/wlasl/main/_code
+
+app/
 
 # Extra data omitted for now
 data/ms-asl/

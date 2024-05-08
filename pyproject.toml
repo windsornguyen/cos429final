@@ -23,6 +23,8 @@ tensorboard = "^2.16.2"
 torch-tb-profiler = "^0.4.3"
 lightning = "^2.2.3"
 seaborn = "^0.13.2"
+gtts = "^2.5.1"
+wheel = "^0.43.0"
 
 [tool.poetry.dev-dependencies]
 # See `ruff help` for more on Ruff's top-level commands.
